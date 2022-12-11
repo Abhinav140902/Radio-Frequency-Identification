@@ -3,17 +3,7 @@ import time
 from mfrc522 import SimpleMFRC522
 
 reader =SimpleMFRC522()
-"""
-HID Keyboard Mapper
-Version: 1.0
-By: Jarno Baselier
-Date: 2018
-URL: www.jarnobaselier.nl
-"""
 
-#Imports
-
-#Program variables
 LIST    = 1     #If LIST is 1 than complete keymap code is shown on screen
 EXECUTE    = 1     #If EXECUTE is 1 than complete keymap code is send to the HID device and executed
 
